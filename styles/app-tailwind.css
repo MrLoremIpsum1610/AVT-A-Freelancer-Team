@@ -1012,6 +1012,26 @@ input[type="range"]::-ms-fill-lower {
   margin-bottom: 2.5rem;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1054,6 +1074,10 @@ input[type="range"]::-ms-fill-lower {
 
 .mt-\[72px\] {
   margin-top: 72px;
+}
+
+.mb-\[4px\] {
+  margin-bottom: 4px;
 }
 
 .block {
@@ -1140,6 +1164,10 @@ input[type="range"]::-ms-fill-lower {
   width: 100%;
 }
 
+.w-\[356px\] {
+  width: 356px;
+}
+
 .max-w-\[262px\] {
   max-width: 262px;
 }
@@ -1216,6 +1244,10 @@ input[type="range"]::-ms-fill-lower {
   gap: 45px;
 }
 
+.gap-\[9px\] {
+  gap: 9px;
+}
+
 .space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1230,6 +1262,10 @@ input[type="range"]::-ms-fill-lower {
 
 .rounded-3xl {
   border-radius: 1.5rem;
+}
+
+.rounded-\[3rem\] {
+  border-radius: 3rem;
 }
 
 .rounded-e-lg {
@@ -1375,6 +1411,10 @@ input[type="range"]::-ms-fill-lower {
 
 .pt-\[80px\] {
   padding-top: 80px;
+}
+
+.pb-\[4px\] {
+  padding-bottom: 4px;
 }
 
 .text-center {
@@ -1579,6 +1619,11 @@ input[type="range"]::-ms-fill-lower {
   width: 50px;
 }
 
+.before\:w-\[47px\]::before {
+  content: var(--tw-content);
+  width: 47px;
+}
+
 .before\:rounded-full::before {
   content: var(--tw-content);
   border-radius: 9999px;
@@ -1611,17 +1656,73 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1)) !important;
 }
 
+@media (min-width: 1200px) {
+  .minxl\:hidden {
+    display: none;
+  }
+
+  .minxl\:h-\[42rem\] {
+    height: 42rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .\32xl\:w-\[273px\] {
+    width: 273px;
+  }
+
+  .\32xl\:w-\[340px\] {
+    width: 340px;
+  }
+}
+
 @media (max-width: 1200px) {
+  .xl\:mb-\[-10px\] {
+    margin-bottom: -10px;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:hidden {
+    display: none;
+  }
+
   .xl\:w-full {
     width: 100%;
+  }
+
+  .xl\:w-\[273px\] {
+    width: 273px;
+  }
+
+  .xl\:w-\[340px\] {
+    width: 340px;
   }
 
   .xl\:flex-col {
     flex-direction: column;
   }
 
+  .xl\:justify-center {
+    justify-content: center;
+  }
+
   .xl\:gap-\[35px\] {
     gap: 35px;
+  }
+
+  .xl\:border-0 {
+    border-width: 0px;
+  }
+
+  .xl\:p-0 {
+    padding: 0px;
+  }
+
+  .xl\:pt-0 {
+    padding-top: 0px;
   }
 }
 

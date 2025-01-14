@@ -8,6 +8,10 @@
         background-size: 63rem;
         background-position-x: -156px;
     }
+    .resume-list__item::before{
+        width: 273px;
+      
+    }
 
 }
 @media (max-width: 1200px) {
